@@ -11,7 +11,7 @@ const MainHero: FC<MainHeroProps> = () => {
     <div className="bg-primary text-secondary pb-10 font-light">
       <MaxWidthContainer>
         <div className="pt-4 -mb-14 lg:pt-16 lg:-mb-32">
-          <div className="flex flex-row justify-between items-start">
+          <div className="flex justify-between items-start">
             <Image
               className="object-contain h-[57px] w-[57px] lg:h-[70px] lg:w-[70px]"
               src="/assets/images/hero/Rx_Icon_2.png"
@@ -32,7 +32,7 @@ const MainHero: FC<MainHeroProps> = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row">
-          <div className="flex flex-row justify-center lg:basis-1/3">
+          <div className="flex justify-center lg:basis-1/3">
             <Image
               className="object-contain h-[231px] w-[60px] lg:h-[509px] lg:w-[132px]"
               src="/assets/images/hero/Asset_4@4x.png"
@@ -47,7 +47,7 @@ const MainHero: FC<MainHeroProps> = () => {
               <Chip text="New!" />
             </div>
 
-            <h1 className="flex flex-row items-start text-xl leading-none mt-2">
+            <h1 className="flex text-xl leading-none mt-2">
               <span className="text-[104px] font-SBblack">M3</span>
               <span className="ml-4 leading-normal tracking-widest lg:text-[28px] lg:leading-7 lg:mt-1">
                 Miracle
@@ -74,12 +74,12 @@ const MainHero: FC<MainHeroProps> = () => {
                 How it works
               </h2>
               <ul className="mt-2 pl-12 leading-7 lg:leading-10 lg:text-xl list-image-[url(/assets/images/arrow-icons/orange-arrow-icon.svg)]">
-                <li className="lg:pl-4">Increases collagen production</li>
-                <li className="lg:pl-4">Retains and restores skin moisture</li>
-                <li className="lg:pl-4">Increases skin firmness</li>
-                <li className="lg:pl-4">Decreases pore size</li>
-                <li className="lg:pl-4">Decreases wrinkle depth</li>
-                <li className="lg:pl-4">Increases skin elasticity</li>
+                <li>Increases collagen production</li>
+                <li>Retains and restores skin moisture</li>
+                <li>Increases skin firmness</li>
+                <li>Decreases pore size</li>
+                <li>Decreases wrinkle depth</li>
+                <li>Increases skin elasticity</li>
               </ul>
             </div>
 
@@ -89,7 +89,7 @@ const MainHero: FC<MainHeroProps> = () => {
           </div>
         </div>
         <ul className="mx-5 mt-6 grid grid-cols-1 lg:grid-cols-3 lg:mt-10">
-          <li className="mb-4 text-base flex flex-row items-start">
+          <li className="mb-4 text-base flex">
             <span className="w-6 h-6 mr-4 absolute flex justify-center items-center">
               <Image
                 className="mx-auto"
@@ -103,7 +103,7 @@ const MainHero: FC<MainHeroProps> = () => {
               Prescription included
             </span>
           </li>
-          <li className="mb-4 flex flex-row items-start">
+          <li className="mb-4 flex">
             <span className="w-6 h-6 mr-4 absolute flex justify-center items-center">
               <Image
                 className="mx-auto"
@@ -117,7 +117,7 @@ const MainHero: FC<MainHeroProps> = () => {
               Free shipping, cancel anytime
             </span>
           </li>
-          <li className="mb-4 flex flex-row items-start">
+          <li className="mb-4 flex">
             <span className="w-6 h-6 mr-4 absolute flex justify-center items-center">
               <Image
                 className="mx-auto"

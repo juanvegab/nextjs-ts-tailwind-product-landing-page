@@ -29,25 +29,27 @@ const GetReadyToM3Section: FC<GetReadyToM3SectionProps> = () => {
                 M3?
               </span>
             </h2>
-            <ol className="mt-10 mb-14 pl-10 text-xl font-SBregular list-decimal marker:font-SBblack marker:text-5xl lg:ml-10 lg:relative lg:w-[400px]">
+
+            {/* All this absolute and translate y handling was used align properly the decimal markers  */}
+            <ol className="mt-10 mb-14 pl-12 text-xl font-SBregular list-decimal marker:font-SBblack marker:text-5xl lg:pl-6 lg:ml-10 lg:relative lg:w-[400px]">
               <li className="mb-12">
-                <span className="absolute translate-y-[-40%]">
-                  Complete Alloy’s online assessment in one minute.
+                <span className="absolute w-[70%] lg:w-[100%] translate-y-[-40%]">
+                  Complete Alloy’s online assessment in 1 minute.
                 </span>
               </li>
               <li className="mb-12">
-                <span className="absolute translate-y-[-40%]">
+                <span className="absolute w-[70%] lg:w-[100%] translate-y-[-40%]">
                   A doctor reviews your information and writes your
                   prescription.
                 </span>
               </li>
               <li className="mb-12">
-                <span className="absolute translate-y-[-40%]">
+                <span className="absolute w-[70%] lg:w-[100%] translate-y-[-40%]">
                   Your prescription is shipped right to your door.
                 </span>
               </li>
               <li className="mb-12">
-                <span className="absolute translate-y-[-40%]">
+                <span className="absolute w-[70%] lg:w-[100%] translate-y-[-40%]">
                   Free and unlimited follow-up with your menopause-trained
                   physician.
                 </span>
@@ -55,7 +57,7 @@ const GetReadyToM3Section: FC<GetReadyToM3SectionProps> = () => {
             </ol>
           </div>
         </div>
-        <div className="text-center">
+        <div className="ml-4 lg:ml-0 lg:text-center">
           <Button text="Get your m3" withArrow />
         </div>
       </MaxWidthContainer>
